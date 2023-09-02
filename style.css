@@ -1,0 +1,688 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.stn1
+{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.stn1 .img img
+{
+    height: 30px;
+    width: 90px;
+    margin-top: 6px;    
+    margin-left: 30px;
+}
+.nav
+{
+    width: 100%;
+}
+ul
+{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: black;
+}
+li
+{
+    float: left;
+}
+li a
+{
+    display: block;
+    color: white;
+    position: relative;
+    left: 350px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px 45px;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+li a:hover
+{
+    background-color: white;
+    color: black;
+    transition-duration: s;
+}
+.icn
+{
+    display: flex;
+}
+.icn i
+{
+    font-size: 25px;
+    padding-right: 50px;
+    padding-top: 10px;
+    color: white;
+    cursor: pointer;
+}
+.icn i:hover
+{
+    color: grey;
+}
+.nav2
+{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(55, 55, 55);
+}
+.img2
+{
+    background-image: url(a3.webp);
+    background-repeat: no-repeat;
+    background-position: start;
+    background-size: 20%;
+    width: 39%;
+    margin: 6px 60px;
+    cursor: pointer;
+}
+.dropdown
+{
+    padding-top: 15px;
+    justify-content: center;
+}
+.dropbtn
+{
+    font-size: 18px;
+    position: relative;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: transparent;
+}
+.dropdown-content
+{
+    display: none;
+    position: absolute;
+    top: 92px;
+    left: 660px;
+    background-color: rgb(38, 38, 38);
+    z-index: 1;
+    animation-name: slider;
+    animation-duration: 1s;
+}
+.dropbtn:hover
+{
+    color: rgb(71, 194, 242);
+}
+@keyframes slider
+{
+    0%{top: 40px; box-shadow: 0px 0px 15px white;}
+    100%{top: 92px; box-shadow: 0px 15px 15px turquoise;}
+}
+.dropdown-content a
+{
+    color: white;
+    padding: 12px 15px;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    transition-duration: 0.3s;
+
+}
+
+.dropdown-content a:hover
+{
+    color: rgb(71, 194, 242);
+    background-color: black;
+
+}
+
+.dropdown:hover .dropdown-content
+{
+    display: block;
+}
+.dropdown:hover .dropbtn i
+{
+    transition-duration: 1s;
+}
+.btn
+{
+    background-color: rgb(71, 194, 242);
+    height: 50px;
+    border: none;
+    width: 230px;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: white;
+    margin-left: 440px;
+    
+
+}
+.btn:hover
+{
+    background-color: white;
+    color: turquoise;
+    transition-duration: 0.5s;
+    box-shadow: 0px 0px 10px white;
+}
+.stn2
+{
+    height: 110vh;
+    width: 100%;
+    background-color: rgb(220, 233, 245);
+}
+.img3
+{
+    background-image: url(a01.jpg);
+    background-size: 100%;
+    background-position: start;
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+.btn5
+{
+    height: 60px;
+    width: 160px;
+    background-color: rgb(71, 194, 242);
+    border: none;
+    color: white;
+    margin-top: 320px;
+    border-radius: 100px;
+    font-size: 23px;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.btn5:hover
+{
+    background-color: white;
+    box-shadow: 0px 0px 10px white;
+    transition-duration: .4s;
+    color: black;
+}
+.img0
+{
+    margin-left: 1200px;
+    margin-top: -220px;
+}
+.etc
+{
+    height: 300px;
+    width: 80%;
+    background-color: rgb(220, 233, 245);
+    justify-content: space-evenly;
+    margin: -150px 140px;
+    text-align: center;
+}
+.etc h1
+{
+    font-size: 75px;
+    font-family: sans-serif;
+    padding-top: 25px;
+}
+.etc p
+{
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-top: 40px;
+}
+.stn5
+{
+    height: 120vh;
+    width: 100%;
+    background-color: white;
+}
+.stn5 h1
+{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+    padding-top: 100px;
+}
+.imt1
+{
+    height: 80vh;
+    width: 100%;
+}
+.image
+{
+    background-image: url(a03.jpg);
+    height: 80vh;
+    width: 54%;
+    margin: 60px 40px;
+    background-position: start;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.txt
+{
+    background-color: rgb(247, 247, 245);
+    height: 65%;
+    width: 730px;
+    transform: translate(680px,160px);
+}
+.image .txt h1
+{
+    text-align: start;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    transform: translate(30px,-78px);
+}
+.image .txt p
+{
+    text-align: start;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    word-spacing: 2px;
+    line-height: 30px;
+    transform: translateY(-60px);
+    padding-inline-start: 30px;
+}
+.stn6
+{
+    height: 110vh;
+    width: 100%;
+    background-color: white;
+}
+.imt2
+{
+    height: 80vh;
+    width: 100%;
+}
+.imt2 .image
+{
+    background-image: url(a04.jpg);
+    height: 80vh;
+    width: 58%;
+    margin: -300px 570px;
+    background-repeat: no-repeat;
+}
+.txt1
+{
+    background-color: rgb(247, 247, 245);
+    height: 70%;
+    width: 48%;
+    margin-left: 40px;
+    transform: translateY(280px);
+}
+.txt1 h1
+{
+    text-align: start;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    padding: 30px 20px;
+}
+.txt1 p
+{
+    text-align: start;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 30px;
+    padding: 0px 20px;
+    text-align: justify;
+    word-spacing: 2px;
+}
+
+.stn7
+{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+}
+.stn7 h1
+{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+    padding-top: 100px;
+}
+.imt3
+{
+    height: 80vh;
+    width: 100%;
+}
+.imt3 .image
+{
+    background-image: url(a05.jpg);
+    height: 80vh;
+    width: 54%;
+    margin: 60px 40px;
+    background-position: start;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.txt
+{
+    background-color: rgb(247, 247, 245);
+    height: 65%;
+    width: 730px;
+    transform: translate(680px,160px);
+}
+.image .txt h1
+{
+    text-align: start;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    transform: translate(30px,-78px);
+}
+.image .txt p
+{
+    text-align: start;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 30px;
+    word-spacing: 2px;
+    transform: translateY(-60px);
+    padding-inline-start: 30px;
+}
+.foot
+{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(247, 247, 245);
+}
+.foot h1
+{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+.mainform
+{
+    display: flex;
+}
+.mainform .forms1
+{
+    width: 40%;
+
+}
+.forms1 form label
+{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-left: 80px;
+    position: relative;
+    top: 75px;
+    color: rgb(88, 88, 88);
+}
+.forms1 form select
+{
+    width: 350px;
+    border-radius: 5px;
+    height: 35px;
+    padding: 0px 8px;
+    background-color: rgb(171, 170, 170);
+    font-size: 21px;
+    position: relative;
+    left: 80px;
+    top: 110px;
+}
+form select:hover
+{
+    background-color: white;
+}
+.mainform .forms2
+{
+    width: 40%;
+    position: relative;
+    top: 170px;
+    left: -360px;
+}
+.forms2 form label
+{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: sans-serif;
+    position: relative;
+    top: 70px;
+    left: 90px;
+    color: rgb(88, 88, 88);
+}
+.forms2 form select
+{
+    width: 350px;
+    border-radius: 5px;
+    height: 38px;
+    padding: 0px 8px;
+    background-color: rgb(171, 170, 170);
+    font-size: 21px;
+    position: relative;
+    top: 105px;
+    left: 90px;
+}
+form select:hover
+{
+    background-color: white;
+}
+.mainform .image2
+{
+    width: 100%;
+    background-image: url(a06.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: end;
+    height: 600px;
+    margin-top: 70px;
+    margin-right: 100px;
+}
+.forms2 .butn
+{
+    padding: 12px 40px;
+    background-color: aqua;
+    font-size: 20px;
+    font-weight: bold;
+    transform: translate(170px,170px);
+    border: none;
+    border-radius: 50px;
+}
+.forms2 .butn:hover
+{
+    background-color: transparent;
+    border-bottom-style: outset;
+    border-bottom: 3px solid black;
+    transition-duration: 0.3s;
+    box-shadow: 0px 8px 10px black;
+}
+.image5
+{
+    background-image: url(a07.jpg);
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.image5 h3
+{
+    text-align: center;
+    color: white;
+    padding-top: 130px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.image5 p
+{
+    text-align: center;
+    color: white;
+    padding-top: 70px;
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 30px;
+    text-transform: capitalize;
+}
+.image5 .bn
+{
+    padding: 12px 40px;
+    background-color: aqua;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 670px;
+    margin-top: 50px;
+    border: none;
+    border-radius: 50px;
+}
+.image5 .bn:hover
+{
+    background-color: white;
+    transition-duration: 0.3s;
+    box-shadow: -2px 10px 10px white;
+}
+.stn10
+{
+    height: 100vh;
+    width: 100%;
+    /* background-color: aqua; */
+}
+.stn10 h4
+{
+    font-size: 40px; 
+    text-align: center;
+    padding-top: 100px;
+}
+.stn10 p
+{
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-top: 50px;
+    text-decoration: underline 5px;
+    text-underline-offset: 10px;
+    color: #cb1ccb;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.stn10 .imgstn
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgstn .imgn
+{
+    height: 350px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    cursor: pointer;
+}
+.imgn:hover
+{
+    transition-duration: 0.2s;
+    filter: brightness(50%);    
+}
+.imgstn .img11
+{
+    background-image: url(a08.jpg);
+}
+.imgstn .img12
+{
+    background-image: url(a09.jpg);
+    
+}
+.imgstn .img13
+{
+    background-image: url(a03.jpg);
+    
+}
+.imgstn .img14
+{
+    background-image: url(a11.jpg);
+    
+}
+.stn10 .p5
+{
+    color: black;
+    padding-top: 10px;
+    text-transform: lowercase;
+    font-weight: lighter;
+    text-decoration: none;font-size: 27px;
+    font-family: none;
+    letter-spacing: 5px;
+}
+.stn10 .p5 i
+{
+    color: rgb(161, 161, 161);
+    padding: 0px 150px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.stn11
+{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(212, 209, 209);
+}
+.stn11 h2
+{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 40px 30px;
+}
+.stn11 p
+{
+    font-size: 20px;
+    text-align: start;
+    padding: 0px 30px;
+    line-height: 35px;
+}
+.para
+{
+    padding-top: 20px;
+    font-family: sans-serif;
+}
+.para10
+{
+    display: flex;
+    text-align: start;
+}
+.para11
+{
+    display: flex;
+    text-align: start;
+}
+.para2
+{
+    margin-left: 100px;
+}
+.para4
+{
+    margin-left: 242px;
+}
+span
+{
+    color: rgb(87, 84, 84);
+    font-size: 22px;
+}
+.header 
+{
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    text-align: end;
+    margin-right: 100px;
+    margin-top: 70px;
+}
+.header img
+{
+    margin-right: 90px;
+    margin-top: 17px;
+}
